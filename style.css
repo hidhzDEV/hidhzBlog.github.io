@@ -1,0 +1,170 @@
+body{
+    background-image: linear-gradient(#e2edff,white);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+/* Jumbotron -------------------------------------------------- */
+.container{
+     position: relative;
+     top: 1000px;
+}
+.container #teksName{
+    font-size: 5em;
+}
+.container #teksHidhz{
+    font-weight: bold;
+}
+.container #teksName3{
+    color: #0D6EFD;
+}
+.container #teksJepang{
+    font-size: 4rem;
+}
+.container #teksJumbotron{
+    margin: 25px 0 25px 0;
+    font-size: 1.3rem;
+}
+/* Footer ---------------------------------------------------- */
+/*
+footer{
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+#bgFooter{
+    background-color: #e2edff;
+    height: 300px;
+}
+#copyright{
+font-size: 2em;
+    text-align: center;
+}
+#teksS{
+    text-align: center;
+    font-size: 2.9em;
+    position: relative;
+    bottom: 25px;
+}
+#email{
+    margin: 0 auto;
+    width: 50%;
+    height: 60px;
+}
+#tombolSubs{
+    position: relative;
+    right: 185px;
+}
+*/
+/* Partikel --------------------------------------------------- */
+#particles-js{
+    height: 100%;
+    position: relative;
+    top: -200px;
+}
+
+
+
+.gelombang{
+    margin-bottom: -40px;
+    position: relative;
+}
+#bgFooter{
+    background-color: #e2edff;
+    height: 100px;
+}
+#navFooter{
+    font-size: 1.5em;
+    position: relative;
+    top: 5px;
+}
+#link-nama{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    top: -5px;
+    float: left;
+    margin-left: 100px;
+    margin-right: 130px;
+    
+}
+#link-nama2{
+    color: #0D6EFD;
+}
+#copyright{
+    color: white;
+    font-size: 1.3em;
+    background-color: #0D6EFD;
+    padding: 17px 200px;
+}
+
+
+
+
+
+/* Responsive Mobile */
+@media screen and (max-width: 576px) {
+/* Jumbotron -------------------------------------------------- */
+    .container{
+         position: relative;
+         top: 450px;
+    }
+    .container #teksName{
+        font-size: 1.8em;
+    }
+    .container #teksJepang{
+        font-size: 1.3rem;
+    }
+    .container #teksJumbotron{
+        margin: 15px 0;
+        font-size: .5rem;
+    }
+    .container #epep{
+        font-size: .4em;
+    }
+    .container #btnIndex{
+        font-size: .5em;
+    }
+/* Footer ---------------------------------------------------- */
+ /*   #bgFooter{
+        height: 170px;
+    }
+    #copyright{
+        font-size: 1em;
+    }
+    #teksS{
+        font-size: 1.2em;
+        bottom: 11px;
+    }
+    #email{
+        height: 38px;
+    }
+    #tombolSubs{
+        right: 35px;
+    } */
+    
+    
+.gelombang{
+    margin-bottom: -15px;
+}
+#bgFooter{
+    height: 40px;
+}
+#navFooter{
+    font-size: .5em;
+    top: 0px;
+    left: -5px;
+}
+#link-nama{
+    font-size: .7em;
+    top: -3px;
+    margin-left: 20px;
+    margin-right: 0;
+}
+#copyright{
+    font-size: .4em;
+    padding: 7px 100px;
+}
+    
+}

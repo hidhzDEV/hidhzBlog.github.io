@@ -1,0 +1,214 @@
+/* STYLE BLOG */
+
+
+.jumbotron{
+    height: 55em;
+    background-color: #e2edff;
+}
+.jumbotron .container{
+    position: relative;
+    top: 500px;
+}
+.jumbotron .container h2{
+    font-size: 1.9em;
+    font-weight: bold;
+}
+.jumbotron .container h2 #blog{
+    font-size: 2em;
+    color: #0D6EFD;
+}
+.gelombang{
+    position: relative;
+    top: 750px;
+}
+
+
+/* Konten */
+    /* Atas */
+#kontainer-top-post {
+    width: 95%;
+    background-color: white;
+    margin: auto;
+	margin-top: -200px;
+    position: relative;
+}
+#kontainer-top-post .wrapper {
+	padding: 20px;
+	background: var(--white);
+	display: flex;
+	grid-gap: 20px;
+	flex-wrap: wrap;
+}
+#kontainer-top-post .left, #kontainer-top-post .right {
+	z-index: 99999;
+	flex: 1 1 400px;
+}
+#kontainer-top-post .left img {
+    width: 100%;
+}
+#kontainer-top-post .right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+#kontainer-top-post .right .time {
+	color: var(--dark-grey);
+	font-size: 14px;
+	margin-bottom: 1rem;
+}
+#kontainer-top-post .right .link-post {
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--black);
+	margin-bottom: 8px;
+	transition: all .3s ease;
+}
+#kontainer-top-post .right .category {
+    margin-top: -15px;
+	text-decoration: none;
+}
+#kontainer-top-post .wrapper #gbPostAtas:hover{
+    width: 890px;
+    transition: 1s;
+}
+    /* Main */
+#kontenMain{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 45%;
+    float: left;
+    padding: 0;
+}
+/* Akhir Konten */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* STYLE INDEX */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+/* Jumbotron -------------------------------------------------- */
+.container #teksName{
+    font-size: 5em;
+}
+.container #teksHidhz{
+    font-weight: bold;
+}
+.container #teksName3{
+    color: #0D6EFD;
+}
+.container #teksJepang{
+    font-size: 4rem;
+}
+.container #teksJumbotron{
+    margin: 25px 0 25px 0;
+    font-size: 1.3rem;
+}
+/* Footer ---------------------------------------------------- */
+footer{
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+#bgFooter{
+    background-color: #e2edff;
+    height: 300px;
+}
+#copyright{
+font-size: 2em;
+    text-align: center;
+}
+#teksS{
+    text-align: center;
+    font-size: 2.9em;
+    position: relative;
+    bottom: 25px;
+}
+#email{
+    margin: 0 auto;
+    width: 50%;
+    height: 60px;
+}
+#tombolSubs{
+    position: relative;
+    right: 185px;
+}
+
+/* Partikel --------------------------------------------------- */
+#particles-js{
+    height: 100%;
+    position: relative;
+    top: -200px;
+}
+
+
+
+
+
+
+/* Responsive Mobile */
+@media screen and (max-width: 576px) {
+/* Jumbotron -------------------------------------------------- */
+    .container{
+         position: relative;
+         top: 450px;
+    }
+    .container #teksName{
+        font-size: 1.8em;
+    }
+    .container #teksJepang{
+        font-size: 1.3rem;
+    }
+    .container #teksJumbotron{
+        margin: 15px 0;
+        font-size: .5rem;
+    }
+    .container #epep{
+        font-size: .4em;
+    }
+    .container #btnIndex{
+        font-size: .5em;
+    }
+/* Footer ---------------------------------------------------- */
+    #bgFooter{
+        height: 170px;
+    }
+    #copyright{
+        font-size: 1em;
+    }
+    #teksS{
+        font-size: 1.2em;
+        bottom: 11px;
+    }
+    #email{
+        height: 38px;
+    }
+    #tombolSubs{
+        right: 35px;
+    }
+    
+}
